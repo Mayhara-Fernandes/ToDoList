@@ -1,0 +1,168 @@
+.app {
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;   
+}
+
+.tarefas{
+    background-color: #FFFDFD;
+    padding: 0px 20px 0  50px;
+    min-width: 410px;
+    min-height: 316px;
+}
+
+.margem{
+    width:0.1px;
+	height:316px;
+    background-color: crimson;
+    position: absolute;
+    margin: 0 0 0 20px ;
+}
+.titulo {
+    font-family: Short Stack;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.formulario {
+    
+    margin-left: 20px;
+}
+
+.novoItem{
+    background: #B0E0E6;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 58px;
+}
+.novoItem:hover{
+    background: #66c5e2 ;
+}
+.linhas{
+    width:410px;
+	height:0.1px;
+    background-color: #00BFFF;
+    position: absolute;
+    margin: 25px 0 0 20px;
+    box-shadow:
+        0 25px 0 #00BFFF,
+        0 50px 0 #00BFFF,
+        0 75px 0 #00BFFF,
+        0 100px 0 #00BFFF,
+        0 125px 0 #00BFFF,
+        0 150px 0 #00BFFF,       
+        0 175px 0 #00BFFF;
+}
+.furoDaFolha{
+	width:20px;
+	height:20px;
+	margin:22px 0 5px -40px;
+	position:absolute;
+	
+	border-radius:50%;
+	
+	background-color:#CCCCCC;
+	
+	box-shadow:
+        0 35px 0 #CCCCCC,
+		0 65px 0 #CCCCCC,
+        0 95px 0 #CCCCCC,
+		0 125px 0 #CCCCCC,
+        0 155px 0 #CCCCCC,
+        0 185px 0 #CCCCCC,
+		0 215px 0 #CCCCCC,
+        0 245px 0 #CCCCCC;
+		
+	
+}
+.rasgadoDaFolha{
+	width:12px;
+	height:12px;
+	margin:26px 0 10px -50px;
+	position:absolute;
+	
+	border-radius:0 15% 15% 0;
+	
+	background-color:#CCCCCC;
+	
+	box-shadow:
+    0 35px 0 #CCCCCC,
+    0 65px 0 #CCCCCC,
+    0 95px 0 #CCCCCC,
+    0 125px 0 #CCCCCC,
+    0 155px 0 #CCCCCC,
+    0 185px 0 #CCCCCC,
+    0 215px 0 #CCCCCC,
+    0 245px 0 #CCCCCC;
+	
+}
+.input{   
+   margin: 10px 0 0 30px;
+   outline: none;
+   border-width: 0 0 1px 0;
+   border-color: #00BFFF;
+   font-family: Yellowtail;
+   font-size: 25px;
+     
+}
+
+.botao-conclui{
+    display: inline;
+    background-color: bisque;
+    outline: none;
+    position: absolute;
+    margin-left: 300px;
+    border: none;
+    border-radius: 3px;
+}
+
+.botao-conclui:hover{
+    background-color: rgb(255, 212, 159);
+}
+
+.botao-deleta{
+    display: inline;
+    background-color: bisque;
+    outline: none;
+    position: absolute;
+    margin-left: 362px;
+    border: none;
+    border-radius: 3px;
+}
+
+.botao-deleta:hover{
+    background-color: rgb(255, 212, 159);
+}
+.caixa-anotacao{
+    
+    margin-left: 20px;
+    height: 239px;
+    font-family: Yellowtail;
+    font-size: 25px;  
+}
+
+.content {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.done {
+    text-decoration: line-through;
+}
+
+.topico{
+    display: inline;
+}
